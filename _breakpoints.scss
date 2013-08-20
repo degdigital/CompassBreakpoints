@@ -1,0 +1,5 @@
+//Breakpoint Mixin
+
+@mixin breakpoint($query) {
+    @media #{$query} { @content; }
+}
