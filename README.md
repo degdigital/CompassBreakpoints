@@ -12,7 +12,9 @@ $mediaQuery2: "screen and (min-width: 20em)";
 ##Call Mixin
 ```
 @include breakpoint($mediaQuery1) {
-	style: value;
+	.selector {
+		style: value;
+	}
 }
 ```
 
